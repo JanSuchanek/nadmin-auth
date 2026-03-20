@@ -1,0 +1,24 @@
+{
+    "name": "jansuchanek/nadmin-auth",
+    "description": "Admin user authentication, roles & permission system for Nette",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "nette/security": "^3.2",
+        "nette/di": "^3.2",
+        "doctrine/orm": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NAdminAuth\\": "src/"
+        }
+    },
+    "extra": {
+        "nette": {
+            "extensions": {
+                "nadminAuth": "NAdminAuth\\DI\\NAdminAuthExtension"
+            }
+        }
+    }
+}
