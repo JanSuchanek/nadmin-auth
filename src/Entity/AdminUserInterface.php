@@ -12,7 +12,7 @@ namespace NAdminAuth\Entity;
  */
 interface AdminUserInterface
 {
-    public function getId(): int;
+    public function getId(): ?int;
 
     public function getEmail(): string;
 

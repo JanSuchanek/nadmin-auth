@@ -13,7 +13,7 @@ use Doctrine\Common\Collections\Collection;
  */
 interface AdminRoleInterface
 {
-    public function getId(): int;
+    public function getId(): ?int;
 
     public function getName(): string;
 
